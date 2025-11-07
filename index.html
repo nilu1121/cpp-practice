@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>☀️ Solar Mini Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>☀️ Solar Mini Calculator 💛</h1>
+    <div id="start-screen">
+      <button id="start-btn">Start</button>
+    </div>
+
+    <div id="calc-screen" class="hidden">
+      <label>Power required by the user (kW):</label>
+      <input type="number" id="powerLoad" step="0.01" />
+
+      <label>AC Supply Frequency (Hz):</label>
+      <input type="number" id="freqAC" step="0.1" />
+
+      <label>AC Voltage (V):</label>
+      <input type="number" id="vac" step="0.1" />
+
+      <label>Modulation Index (Ma):</label>
+      <input type="number" id="ma" step="0.01" />
+
+      <button id="calc-btn">⚡ Calculate</button>
+
+      <div id="result" class="result-box hidden"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

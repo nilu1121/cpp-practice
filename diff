@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Mini Calculator</title>
+  <style>
+    body {
+      background-color: #fff8c6;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #f4a300;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #f4a300;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 10px;
+      font-size: 1em;
+      cursor: pointer;
+      box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+      transition: 0.2s;
+    }
+    button:hover {
+      background-color: #ffb733;
+    }
+  </style>
+</head>
+<body>
+  <h1>☀️ Solar Mini Calculator ☀️</h1>
+  <p>Click below to open the calculator</p>
+  <button onclick="alert('This will be your cute solar calculator soon!')">Open Calculator</button>
+</body>
+</html>
+
